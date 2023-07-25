@@ -4,7 +4,7 @@
 #
 
 my_packages = c("shiny", "ggplot2", "markdown", "tidyr", "dplyr", "readxl", 
-                "janitor", "rlang", "glue", "rclipboard", "Kendall")
+                "janitor", "rlang", "glue", "rclipboard", "Kendall", "SingleCaseES")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
