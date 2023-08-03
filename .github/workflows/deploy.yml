@@ -21,6 +21,6 @@ jobs:
           appdir: "/inst/shiny-examples/SCD-effect-sizes"
           # secrets need to be added to the GitHub repo settings
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: "single-case-es" #Must be unique in Heroku
+          heroku_app_name: "single-case-es" # Must be unique in Heroku
           heroku_email: ${{ secrets.HEROKU_EMAIL }}
           branch: "dev"
